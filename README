@@ -1,3 +1,17 @@
 Gestion des ultrasons sur l'Arduino
-- Codes de bases
-- Arbre a ultrasons
+
+/!\ : Toujours se fier aux datasheets !!
+
+- Codes de base : bases/
+Correspond aux divers codes de bases pour gérer les divers arduinos (en I2C et T/E).
+
+- Arbre a ultrasons : arbre_us/
+Code correspondant à l'arbre à ultrasons :
+* Un sans l'userspace-serie
+* Dès que la version sans userspace fonctionne => intégrer l'userspace
+
+- Outils : outils/
+* Makefile
+* ..
+
+© ORiGiNe
